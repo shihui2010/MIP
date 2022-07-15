@@ -1,4 +1,6 @@
-# Every Preference Changes Differently: Neural Multi-Interest Preference Model with Temporal Dynamics for Retrieval
+# Every Preference Changes Differently: Neural Multi-Interest Preference Model with Temporal Dynamics for Retrieval 
+
+\[[pdf](https://arxiv.org/abs/2207.06652)\]
 
 
 ## Setup
