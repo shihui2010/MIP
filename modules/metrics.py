@@ -49,7 +49,7 @@ class _MetricAt:
         self.recall.update_state(y_true=label, y_pred=pred)
         score = ndcg_score(label.numpy().astype(float),
                            pred.numpy().astype(float), k=self._k)
-        self._ndcg_total += score
+        self._ndcg_total += score * label.shape[0]
         self._count += label.shape[0]
         top_idx = np.argsort(pred, axis=-1)
         top_labels = np.stack(
